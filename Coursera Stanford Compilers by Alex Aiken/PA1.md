@@ -22,6 +22,23 @@ Use `find ~ -name "cool-parse.h"` to find the file **cool-parse.h**.
 5. Read the References.
 6. Start to code `cool.flex`.
 
+## Sample
+
+### Sample Input from `grading/stringcommnet.cool`
+```cool
+"This is a string--and it's still a string"
+--This is a comment, "not a string"
+(* "not a string" *)
+"(* not a comment *)"
+```
+
+### Sample Output from `grading/stringcommnet.cool.out`
+```cool
+#name "stringcomment.cool"
+#1 STR_CONST "This is a string--and it's still a string"
+#4 STR_CONST "(* not a comment *)"
+```
+
 ## How to Judge
 1. Download the grading script: `wget http://spark-university.s3.amazonaws.com/stanford-compilers/scripts/pa1-grading.pl`
 2. Setting the Permission: `chmod a+x pa1-grading.pl`
