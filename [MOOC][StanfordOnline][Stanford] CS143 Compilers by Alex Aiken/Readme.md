@@ -1,0 +1,53 @@
+# Tutorial for Stanford CS143 Compilers by Alex Aiken
+
+## Introduction
+
+- Course: [**Stanford Online Compilers (self-paced)**](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/courseware)
+  - The course is Stanford CS143 Compilers, **Spring 2014**. The course in the latest season ([Spring, 2016](http://web.stanford.edu/class/cs143/)) is not open for non-enrolling students. But you can access some useful materials.
+  - You can eroll in the course at [Coursera](https://www.coursera.org/course/compilers), too.
+  - If you get stuck, you can find more discussion posts in the coursera than in Stanford Online.
+- Fee: **Free**
+- Approx. **? Months**
+- Prerequisites: **C++ or Java Experience**
+- Review: **Very Excellent**
+- Meterials 
+  - [x] **Video + Script**
+  - [x] **Quiz**
+    - [x] **Officail Solutions**
+  - [x] **Assignment**
+    - Programming Assignment 01: Lexical Analysis
+    - Programming Assignment 02: Parsing
+    - Programming Assignment 03: Semantic Analysis and Type Checking
+    - Programming Assignment 04: Code Generation
+    - Remarks
+      - The four assignments can be assembled to a compiler.
+      - The Deduceit Assignment in Coursera is down.
+      - There're [**Written Assignments**](http://web.stanford.edu/class/cs143/) in Spring 2016.
+    - [ ] **Officail Solutions**
+    - [x] **My Solutions (In process)**
+- Recommanded Textbooks (No textbook is required.)
+  - **Compilers: Principles, Techniques, and Tools** (CPTT, aka "The Dragon Book") by Aho, Lam, Sethi, and Ullman, 2ed.
+  - **Engineering a Compiler** (EC) by Cooper and Torczon, 2ed
+  - **Modern Compiler Implementation** (MCI) by Appel, with Palsberg 
+    - Note: there are versions of this book tailored to C and Java, as well as ML.
+- Syllabs
+  - Introduction
+  - The Cool Programming Language
+  - Lexical Analysis
+  - Finite Automata
+  - Parsing
+  	- Top-Down Parsing
+  	- Bottom-Up Parsing I + II
+  - Semantic Analysis and Type Checking
+  - Cool Type Checking
+  - Runtime Organization
+  - Code Generation
+  - Operational Semantics
+  - Local Optimization
+  - Global Optimization
+  - Register Allocation
+  - Garbage Collection
+  - Java
+- Reference
+  - [Ejhfast/Proof-Search](https://github.com/Ejhfast/Proof-Search)
+  - [Ejhfast/ProofFrontend](https://github.com/Ejhfast/ProofFrontend)
