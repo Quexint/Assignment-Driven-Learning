@@ -12,9 +12,15 @@
 - Review: **Very Excellent**
 - Meterials 
   - [x] **Video + Script**
+    - You can download the video on Coursera.
   - [x] **Quiz**
     - [x] **Officail Solution**
+    - [09-08 in-video quiz wrong answer](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/discussion/forum/i4x-Engineering-Compilers-Lectures-Fall2014/threads/5473bbd457f960b95d0011f1#)
   - [x] **Assignment**
+    - [ ] **Officail Solution**
+    - [x] **Autograder**
+    - [x] **My Solution (In process)**
+    - [x] **My Note (In process)**
     - Programming Assignment 01: Lexical Analysis
     - Programming Assignment 02: Parsing
     - Programming Assignment 03: Semantic Analysis and Type Checking
@@ -23,10 +29,6 @@
       - The four assignments can be assembled to a compiler.
       - The Deduceit Assignment in Coursera is down.
       - There're [**Written Assignments**](http://web.stanford.edu/class/cs143/) in Spring 2016.
-    - [ ] **Officail Solution**
-    - [x] **Autograder**
-    - [x] **My Solution (In process)**
-    - [x] **My Note (In process)**
 - Recommanded Textbooks (No textbook is required.)
   - **Compilers: Principles, Techniques, and Tools** (CPTT, aka "The Dragon Book") by Aho, Lam, Sethi, and Ullman, 2ed.
   - **Engineering a Compiler** (EC) by Cooper and Torczon, 2ed
