@@ -1,0 +1,63 @@
+# Tutorial for UCB CS162 Operating Systems and System Programming
+
+## Introduction
+
+- Course: [**UCB CS162 Operating Systems and System Programming**](https://cs162.eecs.berkeley.edu/)
+  - The course I took was UCB CS162 Operating Systems and System Programming by John Kubiatowicz, **Fall 2015**.
+  - The website is updated to the latest season (**Spring, 2016**).
+- Fee: **Free**
+- Approx. **2 ~ 3 Months**
+- Prerequisites: **C++ Experience**
+- Meterials 
+  - [x] **Video**
+	  - You can find many video lectures in different seasons on [Youtube](https://www.youtube.com/results?search_query=CS162).
+  - [ ] Quiz
+	 - [x] **Miteterm 1 & 2**
+      - [x] **Officail Solution**
+    - [ ] Final Exam
+  - [x] **Assignment**
+    - [ ] **Officail Solution**
+    - [ ] **Autograder**
+    - [x] **My Solution (In process)**
+    - [x] **My Note (In process)**
+    - HW 0: Executable
+    - HW 1: Basic Shell
+    - HW 2: HTTP Server
+    - HW 3: Malloc
+    - HW 4: 2PC/KV Store
+- Pojects Pintos
+	- Kernel threads
+	- Loading and running user programs
+	- File System
+- Textbooks
+  - Required: Operating Systems: Principles and Practice (2nd Edition)
+  - Recommended: Operating System Concepts 9th Edition
+  - Supplemental: Understanding the Linux Kernel, Third Edition
+  - Supplemental: Linux Kernel Development (3rd Edition)
+  - Online Textbooks (Only for enrolling students)
+ 	 - Version Control with Git, 2nd Edition
+ 	 - Head First C, 1st Edition
+ 	 - 21st Century C, 2nd Edition
+- Syllabs
+  - Intro to CS162
+  - Introduction to the Process
+  - Processes, Fork, I/O, Files
+  - I/O, Sockets, Networking
+  - Concurrency: Processes and Threads
+  - Cooperating threads, Synchronization
+  - Mutual Exclusion, Lock Implementation
+  - Semaphores, Condition Variables, Readers/Writers
+  - Synchronization, Scheduling
+  - Advanced Scheduling, Deadlock
+  - Deadlock, Address Translation, Virtual Memory
+  - Address Translation, Caching
+  - Demand Paging, I/O start
+  - Input/Output, I/O Layers, Storage Devices, I/O Performance and Low-level Optimization
+  - Performance, StorageDevices, Queueing theory
+  - File Systems Design: Concept to FAT, Advanced File Systems: FFS, NTFS, COW
+  - File Systems, MMAP
+  - Reliability, Transactions, Distributed system
+  - Distributed Systems, Layering, TCP/IP
+  - Distributed Systems: TCP/IP, Distributed Decision Making, NFS, AFS file systems
+  - Distributed Storage, Key Value Stores, Security, Consistency
+  - Security, Cloud Services & Cloud Infrastructure
