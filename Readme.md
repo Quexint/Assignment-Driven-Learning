@@ -1,4 +1,32 @@
-Copyright of all course materials is belong to authors.
+# Assignment-Driven Learning
+
+It's a project to share my **solutions** and **notes** when studyng MOOCs, reading books, and doing workshops. Feel free to find MOCCs, solutions, and feedbacks here.
+
+## Collections
+
+- [ ] Google - [Technical Development Guide](https://www.google.com.tw/about/careers/students/guide-to-technical-development.html)
+- [Awesome Courses](https://github.com/prakhar1989/awesome-courses)
+
+## Software Engineering
+
+- [x] [OCW] Udacity Software Debugging
+- [x] [OCW] Udacity Software Testing
+
+## System
+
+- [ ] [OCW] UCB CS162 Operating Systems and Systems Programming (**In process**)
+
+## Programming Languages / Compiler
+
+- [ ] [OCW] Stanford CS143 Compilers (**In process**)
+
+## Apps
+
+- [ ] [OCW] Stanford Developing iOS 9 Apps (**In process**)
+
+## LICENSE
+
+Copyright of all materials is belong to authors.
 
 All my solutions for the repo are under MIT License.
 
