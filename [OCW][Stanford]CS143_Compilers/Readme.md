@@ -1,0 +1,51 @@
+# Stanford CS143 Compilers
+
+## Introduction
+
+- **Stanford CS143 Compilers**
+	- Instructor: Alex Aiken
+	- Website
+		- (OCW, Spring 2014) [**Stanford Online Compilers (self-paced)**](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/courseware)
+		- (OCW, Spring 2014) [**Coursera Compilers**](https://www.coursera.org/course/compilers)
+		- [**Stanford CS143 Compilers**](http://web.stanford.edu/class/cs143/)
+		- If you get stuck, you can find more discussion posts in Coursera than in Stanford Online.
+- Prerequisites: **C++ or Java Experience**
+- Meterials 
+	- [x] **Video + Script**
+	- [x] **Quiz**
+		- [x] **Officail Solution**
+		- [09-08 in-video quiz wrong answer](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/discussion/forum/i4x-Engineering-Compilers-Lectures-Fall2014/threads/5473bbd457f960b95d0011f1#)
+	- [x] **Assignment**
+		- [x] Programming Assignment 01: Lexical Analysis: `ProgrammingAssignment/PA2_Lexer $ make lexer`
+		- [x] Programming Assignment 02: Parsing: `ProgrammingAssignment/PA3_Parser $ make parser`
+		- [x] Programming Assignment 03: Semantic Analysis and Type Checking: `ProgrammingAssignment/PA4_Semant $ make semant`
+		- [ ] Programming Assignment 04: Code Generation (**In process**)
+		- [x] **Autograder**
+	- [x] **My Note (In process)**
+	- Remarks
+		- The four assignments can be assembled to a compiler.
+		- The Deduceit Assignment in Coursera is down.
+		- There're [**Written Assignments**](http://web.stanford.edu/class/cs143/) in Spring 2016.
+- Recommanded Textbooks (No textbook is required.)
+	- **Compilers: Principles, Techniques, and Tools** (CPTT, aka "The Dragon Book") by Aho, Lam, Sethi, and Ullman, 2ed.
+	- **Engineering a Compiler** (EC) by Cooper and Torczon, 2ed
+	- **Modern Compiler Implementation** (MCI) by Appel, with Palsberg 
+		- Note: There are versions of this book tailored to C and Java, as well as ML.
+- Syllabs
+	- Introduction
+	- The Cool Programming Language
+	- Lexical Analysis
+	- Finite Automata
+	- Parsing
+		- Top-Down Parsing
+		- Bottom-Up Parsing I + II
+	- Semantic Analysis and Type Checking
+	- Cool Type Checking
+	- Runtime Organization
+	- Code Generation
+	- Operational Semantics
+	- Local Optimization
+	- Global Optimization
+	- Register Allocation
+	- Garbage Collection
+	- Java
