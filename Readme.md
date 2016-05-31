@@ -1,6 +1,8 @@
 # Assignment-Driven Learning
 
-It's a project to share my **solutions** and **notes** when studyng MOOCs, reading books, and doing workshops. Feel free to find MOCCs, solutions, and feedbacks here.
+It's a project to share my **solutions** and **notes** when studying OCWs, reading books, and doing workshops.
+
+Feel free to find MOCCs, solutions, and feedbacks here.
 
 ## Collections
 
@@ -26,7 +28,7 @@ It's a project to share my **solutions** and **notes** when studyng MOOCs, readi
 
 ## LICENSE
 
-Copyright of all materials is belong to authors.
+Copyright of all materials belongs to authors.
 
 All my solutions for the repo are under MIT License.
 
