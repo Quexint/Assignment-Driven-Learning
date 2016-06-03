@@ -1,30 +1,50 @@
 # Assignment-Driven Learning
 
+## Current Work
+
+Now I am focus on **Stanford Compilers PA04**. I except the course will end in Jane.
+
+## Description
+
 It's a project to share my **solutions** and **notes** when studying OCWs, reading books, and doing workshops.
 
-Feel free to find MOCCs, solutions, and feedbacks here.
+Feel free to find OCWs, solutions, and feedbacks here.
 
-## Collections
+## Book
 
-- [ ] Google - [Technical Development Guide](https://www.google.com.tw/about/careers/students/guide-to-technical-development.html)
+### C/C++
+
+- [ ] C++ Primer, 5e (**In process**)
+
+## Open Course Ware
+
+### Collections
+
+- Google - [Technical Development Guide](https://www.google.com.tw/about/careers/students/guide-to-technical-development.html)
 - [Awesome Courses](https://github.com/prakhar1989/awesome-courses)
 
-## Software Engineering
+### Software Engineering
 
-- [x] [OCW] Udacity Software Debugging
-- [x] [OCW] Udacity Software Testing
+- [x] Udacity Software Debugging
+- [x] Udacity Software Testing
 
-## System
+### System
 
-- [ ] [OCW] UCB CS162 Operating Systems and Systems Programming (**In process**)
+- [ ] UCB CS162 Operating Systems and Systems Programming (**In process**)
 
-## Programming Languages / Compiler
+### Programming Languages / Compiler
 
-- [ ] [OCW] Stanford CS143 Compilers (**In process**)
+- [ ] Stanford CS143 Compilers (**In process**)
 
-## Apps
+### Apps
 
-- [ ] [OCW] Stanford Developing iOS 9 Apps (**In process**)
+- [ ] Stanford Developing iOS 9 Apps (**In process**)
+
+## Workshops
+
+### Programming Languages
+
+- [ ] [Go by Example](https://gobyexample.com)
 
 ## LICENSE
 
