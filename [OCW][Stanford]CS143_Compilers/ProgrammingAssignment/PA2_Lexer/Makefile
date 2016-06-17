@@ -21,7 +21,7 @@ CPPINCLUDE= -I. -I${CLASSDIR}/include/PA${ASSN} -I${CLASSDIR}/src/PA${ASSN}
 
 FFLAGS= -d -ocool-lex.cc
 
-CC=g++
+CC=g++-6
 CFLAGS= -g -Wall -Wno-unused -Wno-write-strings ${CPPINCLUDE}
 FLEX=flex ${FFLAGS}
 DEPEND = ${CC} -MM ${CPPINCLUDE}

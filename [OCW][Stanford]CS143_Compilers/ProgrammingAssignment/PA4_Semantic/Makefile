@@ -25,7 +25,7 @@ FFLAGS = -d8 -ocool-lex.cc
 BFLAGS = -d -v -y -b cool --debug -p cool_yy
 ASTBFLAGS = -d -v -y -b ast --debug -p ast_yy
 
-CC=g++
+CC=g++-6
 CFLAGS=-g -Wall -Wno-unused -Wno-write-strings ${CPPINCLUDE} -DDEBUG
 FLEX=flex ${FFLAGS}
 BISON= bison ${BFLAGS}

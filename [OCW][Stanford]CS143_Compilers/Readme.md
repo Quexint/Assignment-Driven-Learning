@@ -16,12 +16,12 @@
 		- [x] **Officail Solution**
 		- [09-08 in-video quiz wrong answer](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/discussion/forum/i4x-Engineering-Compilers-Lectures-Fall2014/threads/5473bbd457f960b95d0011f1#)
 	- [x] **Assignment**
-		- [x] Programming Assignment 01: Lexical Analysis: `ProgrammingAssignment/PA2_Lexer $ make lexer`
-		- [x] Programming Assignment 02: Parsing: `ProgrammingAssignment/PA3_Parser $ make parser`
-		- [x] Programming Assignment 03: Semantic Analysis and Type Checking: `ProgrammingAssignment/PA4_Semant $ make semant`
-		- [ ] Programming Assignment 04: Code Generation (**In process**)
+		- [x] [**PA01**](ProgrammingAssignment/PA2_Lexer): Lexical Analysis: `ProgrammingAssignment/PA2_Lexer $ make lexer`
+		- [x] [**PA02**](ProgrammingAssignment/PA3_Parser): Parsing: `ProgrammingAssignment/PA3_Parser $ make parser`
+		- [x] [**PA03**](ProgrammingAssignment/PA4_Semant): Semantic Analysis and Type Checking: `ProgrammingAssignment/PA4_Semant $ make semant`
+		- [x] [**PA04**](ProgrammingAssignment/PA5_CodeGen): Code Generation: `ProgrammingAssignment/PA5_CodeGen $ make cgen`
 		- [x] **Autograder**
-	- [x] **My Note (In process)**
+	- [x] [**My Note (In process)**](Notes.ipynb)
 	- Remarks
 		- The four assignments can be assembled to a compiler.
 		- The Deduceit Assignment in Coursera is down.
@@ -31,21 +31,32 @@
 	- **Engineering a Compiler** (EC) by Cooper and Torczon, 2ed
 	- **Modern Compiler Implementation** (MCI) by Appel, with Palsberg 
 		- Note: There are versions of this book tailored to C and Java, as well as ML.
-- Syllabs
-	- Introduction
-	- The Cool Programming Language
-	- Lexical Analysis
-	- Finite Automata
-	- Parsing
-		- Top-Down Parsing
-		- Bottom-Up Parsing I + II
-	- Semantic Analysis and Type Checking
-	- Cool Type Checking
-	- Runtime Organization
-	- Code Generation
-	- Operational Semantics
-	- Local Optimization
-	- Global Optimization
-	- Register Allocation
-	- Garbage Collection
-	- Java
+
+## Programming Assignments
+
+I made a **experimental** [**Dockerfile**](Dockerfile) to start quickly. Or download the virtual box file in the website.
+
+1. Create a directorial and put dockerfile into it.
+2. Download the Docker images: `docker build -t stanford-compilers-docker ./`
+3. Create a data volume and run it: `docker run -it -v data-volumes:/home/compilers/cool --name container1 stanford-compilers-docker`
+
+
+## Syllabs
+
+- Introduction
+- The Cool Programming Language
+- Lexical Analysis
+- Finite Automata
+- Parsing
+	- Top-Down Parsing
+	- Bottom-Up Parsing I + II
+- Semantic Analysis and Type Checking
+- Cool Type Checking
+- Runtime Organization
+- Code Generation
+- Operational Semantics
+- Local Optimization
+- Global Optimization
+- Register Allocation
+- Garbage Collection
+- Java
