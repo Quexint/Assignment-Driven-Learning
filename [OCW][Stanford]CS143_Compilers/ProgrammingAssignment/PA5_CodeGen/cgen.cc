@@ -1456,137 +1456,6 @@ Symbol loop_class::code(CgenParameter)
 
 Symbol typcase_class::code(CgenParameter)
 {
-/*  cgen_env->enterscope();
-  Symbol T_1= expr->code(CgenParameterInstance);
-
-  emit_move(T1, ACC, s);
-  emit_move(ACC, SELF, s);
-  int jump_abort = cgen_env->assign_label();
-  emit_bne(ZERO, T1, jump_abort, s);
-  emit_load_imm(T1, 1, s);
-  emit_load_string(ACC, stringtable.lookup_string(obj_self->filename->get_string()),s);
-  emit_jal("_case_abort2", s);
-  emit_label_def(jump_abort, s);
-  emit_move(ACC, T1, s);
-
-
-  if(T_1 == self)
-    T_1 = obj_self->get_name(), emit_load(T1, 0, SELF, s);
-  else
-    emit_load(T1, 0, ACC, s);
-  cgen_env->push_reg_into_stack(No_type, T1, CgenParameterInstance);
-
-  Symbol res;
-  int jump_exit = cgen_env->assign_label();
-  for(int i = cases->first(); cases->more(i); i = cases->next(i)){
-    int next_jump = cgen_env->assign_label();
-    branch_class *itr = (branch_class*)cases->nth(i);
-
-    cgen_env->pop_stack(T1, CgenParameterInstance);
-    cgen_env->push_reg_into_stack(No_type, T1, CgenParameterInstance);
-    emit_load_address(T2, cctable->lookup(itr->get_type())->prot_string, s);
-    emit_load(T2, 0, T2, s);
-    emit_bne(T2, T1, next_jump, s);
-
-    cgen_env->push_reg_into_stack(itr->get_name(), ACC, CgenParameterInstance);
-    cgen_env->addid_typ(itr->get_name(), new Symbol(itr->get_type()));
-    Symbol tmp = itr->expr->code(CgenParameterInstance);
-    if(i == cases->first()) res = tmp;
-    else res = cctable->LCA(res, tmp);
-    cout << "case: " << tmp << " itr_T: " << itr->get_type() << endl;
-    cgen_env->pop_stack(T1, CgenParameterInstance);
-
-
-    emit_branch(jump_exit, s);
-    emit_label_def(next_jump, s);
-  }
-  cgen_env->pop_stack(T1, CgenParameterInstance);
-
-  emit_move(ACC, SELF, s);
-  emit_jal("_case_abort", s);
-
-  emit_label_def(jump_exit, s);
-
-
-  cgen_env->pop_stack(T3, CgenParameterInstance);
-  cgen_env->exitscope();
-  return res;*/
-  /*
-  cgen_env->enterscope();
-  Symbol T_1= expr->code(CgenParameterInstance);
-
-  emit_move(T1, ACC, s);
-  emit_move(ACC, SELF, s);
-  int jump_abort = cgen_env->assign_label();
-  emit_bne(ZERO, T1, jump_abort, s);
-  emit_load_imm(T1, 1, s);
-  emit_load_string(ACC, stringtable.lookup_string(obj_self->filename->get_string()),s);
-  emit_jal("_case_abort2", s);
-  emit_label_def(jump_abort, s);
-  emit_move(ACC, T1, s);
-
-  if(T_1 == self) T_1 = obj_self->get_name();
-
-  Symbol res;
-  int jump_false = cgen_env->assign_label();
-  int jump_exit = cgen_env->assign_label();
-  std::vector<int> jump_label, load_label;
-  for(int i = cases->first(); cases->more(i); i = cases->next(i))
-    jump_label.push_back(cgen_env->assign_label());
-  for(CgenNodeP nd = cctable->lookup(T_1); ; nd = nd->get_parentnd()){
-    load_label.push_back(cgen_env->assign_label());
-    if(nd->get_name() == Object)break;
-  }
-
-  emit_load_address(T1, cctable->lookup(T_1)->prot_string, s);
-  cgen_env->push_reg_into_stack(No_type, T1, CgenParameterInstance);
-
-  for(int i = cases->first(), j = 0; cases->more(i); j++, i = cases->next(i)){
-    branch_class *itr = (branch_class*)cases->nth(i);
-
-    emit_label_def(jump_label[j], s);
-
-    emit_load(T1, 1, SP, s);
-    emit_load(T1, 0, T1, s);
-    emit_load_address(T2, cctable->lookup(itr->get_type())->prot_string, s);
-    emit_load(T2, 0, T2, s);
-    if(j != cases->len() - 1) emit_bne(T2, T1, jump_label[j+1], s);
-    else emit_bne(T2, T1, load_label[0], s);
-
-    cgen_env->push_reg_into_stack(itr->get_name(), ACC, CgenParameterInstance);
-    cgen_env->addid_typ(itr->get_name(), new Symbol(itr->get_type()));
-    Symbol tmp = itr->expr->code(CgenParameterInstance);
-    if(i == cases->first()) res = tmp;
-    else res = cctable->LCA(res, tmp);
-    cgen_env->pop_stack(T1, CgenParameterInstance);
-
-    emit_branch(jump_exit, s);
-  }
-
-  emit_label_def(load_label[0], s);
-
-  int j = 0;
-  for(CgenNodeP nd = cctable->lookup(T_1); nd != cctable->root(); j++, nd = nd->get_parentnd()){
-    emit_load_address(T1, nd->prot_string, s);
-    emit_load(T2, 1, SP, s);
-    emit_load(T1, 0, T1, s);
-    emit_load(T2, 0, T2, s);
-    emit_bne(T1, T2, load_label[j+1], s);
-    cgen_env->pop_stack(T2, CgenParameterInstance);
-    emit_load_address(T1, nd->get_parentnd()->prot_string, s);
-    cgen_env->push_reg_into_stack(No_type, T1, CgenParameterInstance);
-    emit_branch(jump_label[0], s);
-    emit_label_def(load_label[j+1], s);
-  }
-
-  emit_label_def(jump_false, s);
-  emit_move(ACC, SELF, s);
-  emit_jal("_case_abort", s);
-  emit_label_def(jump_exit, s);
-
-  cgen_env->pop_stack(T3, CgenParameterInstance);
-  cgen_env->exitscope();
-  return res;*/
   cgen_env->enterscope();
   Symbol T_1= expr->code(CgenParameterInstance);
 
@@ -1609,32 +1478,31 @@ Symbol typcase_class::code(CgenParameter)
   }
 
   /* If the type is self, use BFS to record which branch my posterity will enter */
-//  if(T_1 == self){
-    std::queue<CgenNodeP> bfs_queue;
-    bfs_queue.push(cctable->root());
-    while(!bfs_queue.empty()){
-      CgenNodeP nd = bfs_queue.front();
-      bfs_queue.pop();
-      for(List<CgenNode> *l = nd->get_children(); l; l = l->tl())
-        bfs_queue.push(l->hd());
+  std::queue<CgenNodeP> bfs_queue;
+  bfs_queue.push(cctable->root());
+  while(!bfs_queue.empty()){
+    CgenNodeP nd = bfs_queue.front();
+    bfs_queue.pop();
+    for(List<CgenNode> *l = nd->get_children(); l; l = l->tl())
+      bfs_queue.push(l->hd());
 
-      int most_closet_len = 100000000;
-      branch_class *res_branch = NULL;
-      for(int i = cases->first(), j = 0; cases->more(i); j++, i = cases->next(i)){
-        branch_class *itr = (branch_class*)cases->nth(i);
-        if(cctable->LCA(nd->get_name(), itr->get_type()) == itr->get_type()){
-          int tmp_len = 0;
-          for(CgenNodeP nd_itr = cctable->lookup(nd->get_name()); nd_itr != cctable->lookup(itr->get_type()); nd_itr = nd_itr->get_parentnd()){
-            tmp_len++;
-          }
-          if(tmp_len < most_closet_len){
-            most_closet_len = tmp_len;
-            res_branch = itr;
-          }
+    int most_closet_len = 100000000;
+    branch_class *res_branch = NULL;
+    for(int i = cases->first(), j = 0; cases->more(i); j++, i = cases->next(i)){
+      branch_class *itr = (branch_class*)cases->nth(i);
+      if(cctable->LCA(nd->get_name(), itr->get_type()) == itr->get_type()){
+        int tmp_len = 0;
+        for(CgenNodeP nd_itr = cctable->lookup(nd->get_name()); nd_itr != cctable->lookup(itr->get_type()); nd_itr = nd_itr->get_parentnd()){
+          tmp_len++;
+        }
+        if(tmp_len < most_closet_len){
+          most_closet_len = tmp_len;
+          res_branch = itr;
         }
       }
-      enter_branch_with_types[res_branch].push_back(nd);
     }
+    enter_branch_with_types[res_branch].push_back(nd);
+  }
 
   if(T_1 == self)
     emit_move(T1, SELF, s);

@@ -18,7 +18,7 @@
 	- [x] **Assignment**
 		- [x] [**PA01**](ProgrammingAssignment/PA2_Lexer): Lexical Analysis: `ProgrammingAssignment/PA2_Lexer $ make lexer`
 		- [x] [**PA02**](ProgrammingAssignment/PA3_Parser): Parsing: `ProgrammingAssignment/PA3_Parser $ make parser`
-		- [x] [**PA03**](ProgrammingAssignment/PA4_Semant): Semantic Analysis and Type Checking: `ProgrammingAssignment/PA4_Semant $ make semant`
+		- [x] [**PA03**](ProgrammingAssignment/PA4_Semantic): Semantic Analysis and Type Checking: `ProgrammingAssignment/PA4_Semantic $ make semant`
 		- [x] [**PA04**](ProgrammingAssignment/PA5_CodeGen): Code Generation: `ProgrammingAssignment/PA5_CodeGen $ make cgen`
 		- [x] **Autograder**
 	- [x] [**My Note (In process)**](Notes.ipynb)
