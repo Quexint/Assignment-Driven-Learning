@@ -1,0 +1,195 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ASSIGN	cool-parse.h	/^     ASSIGN = 280,$/;"	e	enum:yytokentype
+ASSIGN	cool-parse.h	138;"	d
+BOOL_CONST	cool-parse.h	/^     BOOL_CONST = 277,$/;"	e	enum:yytokentype
+BOOL_CONST	cool-parse.h	135;"	d
+Boolean	cool-parse.h	/^typedef int Boolean;$/;"	t
+Boolean	cool.h	/^typedef int Boolean;$/;"	t
+CASE	cool-parse.h	/^     CASE = 269,$/;"	e	enum:yytokentype
+CASE	cool-parse.h	127;"	d
+CLASS	cool-parse.h	/^     CLASS = 258,$/;"	e	enum:yytokentype
+CLASS	cool-parse.h	116;"	d
+COOL_IO_H	cool-io.h	8;"	d
+Case	cool-parse.h	/^typedef class Case_class *Case;$/;"	t	typeref:class:Case_class
+Cases	cool-parse.h	/^typedef Cases_class *Cases;$/;"	t
+Cases_class	cool-parse.h	/^typedef list_node<Case> Cases_class;$/;"	t
+Class_	cool-parse.h	/^typedef class Class__class *Class_;$/;"	t	typeref:class:Class__class
+Classes	cool-parse.h	/^typedef Classes_class *Classes;$/;"	t
+Classes_class	cool-parse.h	/^typedef list_node<Class_> Classes_class;$/;"	t
+DARROW	cool-parse.h	/^     DARROW = 272,$/;"	e	enum:yytokentype
+DARROW	cool-parse.h	130;"	d
+ELSE	cool-parse.h	/^     ELSE = 259,$/;"	e	enum:yytokentype
+ELSE	cool-parse.h	117;"	d
+ERROR	cool-parse.h	/^     ERROR = 283,$/;"	e	enum:yytokentype
+ERROR	cool-parse.h	141;"	d
+ESAC	cool-parse.h	/^     ESAC = 270,$/;"	e	enum:yytokentype
+ESAC	cool-parse.h	128;"	d
+Entry	stringtab.h	/^class Entry {$/;"	c
+Expression	cool-parse.h	/^typedef class Expression_class *Expression;$/;"	t	typeref:class:Expression_class
+Expressions	cool-parse.h	/^typedef Expressions_class *Expressions;$/;"	t
+Expressions_class	cool-parse.h	/^typedef list_node<Expression> Expressions_class;$/;"	t
+FI	cool-parse.h	/^     FI = 260,$/;"	e	enum:yytokentype
+FI	cool-parse.h	118;"	d
+Feature	cool-parse.h	/^typedef class Feature_class *Feature;$/;"	t	typeref:class:Feature_class
+Features	cool-parse.h	/^typedef Features_class *Features;$/;"	t
+Features_class	cool-parse.h	/^typedef list_node<Feature> Features_class;$/;"	t
+Formal	cool-parse.h	/^typedef class Formal_class *Formal;$/;"	t	typeref:class:Formal_class
+Formals	cool-parse.h	/^typedef Formals_class *Formals;$/;"	t
+Formals_class	cool-parse.h	/^typedef list_node<Formal> Formals_class;$/;"	t
+GC_DEBUG	cgen_gc.h	/^extern enum Memmgr_Debug { GC_QUICK, GC_DEBUG } cgen_Memmgr_Debug;$/;"	e	enum:Memmgr_Debug
+GC_GENGC	cgen_gc.h	/^extern enum Memmgr { GC_NOGC, GC_GENGC, GC_SNCGC } cgen_Memmgr;$/;"	e	enum:Memmgr
+GC_NOGC	cgen_gc.h	/^extern enum Memmgr { GC_NOGC, GC_GENGC, GC_SNCGC } cgen_Memmgr;$/;"	e	enum:Memmgr
+GC_NORMAL	cgen_gc.h	/^extern enum Memmgr_Test { GC_NORMAL, GC_TEST } cgen_Memmgr_Test;$/;"	e	enum:Memmgr_Test
+GC_QUICK	cgen_gc.h	/^extern enum Memmgr_Debug { GC_QUICK, GC_DEBUG } cgen_Memmgr_Debug;$/;"	e	enum:Memmgr_Debug
+GC_SNCGC	cgen_gc.h	/^extern enum Memmgr { GC_NOGC, GC_GENGC, GC_SNCGC } cgen_Memmgr;$/;"	e	enum:Memmgr
+GC_TEST	cgen_gc.h	/^extern enum Memmgr_Test { GC_NORMAL, GC_TEST } cgen_Memmgr_Test;$/;"	e	enum:Memmgr_Test
+IF	cool-parse.h	/^     IF = 261,$/;"	e	enum:yytokentype
+IF	cool-parse.h	119;"	d
+IN	cool-parse.h	/^     IN = 262,$/;"	e	enum:yytokentype
+IN	cool-parse.h	120;"	d
+INHERITS	cool-parse.h	/^     INHERITS = 263,$/;"	e	enum:yytokentype
+INHERITS	cool-parse.h	121;"	d
+INT_CONST	cool-parse.h	/^     INT_CONST = 276,$/;"	e	enum:yytokentype
+INT_CONST	cool-parse.h	134;"	d
+ISVOID	cool-parse.h	/^     ISVOID = 274,$/;"	e	enum:yytokentype
+ISVOID	cool-parse.h	132;"	d
+IdEntry	stringtab.h	/^class IdEntry : public Entry {$/;"	c
+IdEntryP	stringtab.h	/^typedef IdEntry *IdEntryP;$/;"	t
+IdTable	stringtab.h	/^class IdTable : public StringTable<IdEntry> { };$/;"	c
+IntEntry	stringtab.h	/^class IntEntry: public Entry {$/;"	c
+IntEntryP	stringtab.h	/^typedef IntEntry *IntEntryP;$/;"	t
+IntTable	stringtab.h	/^class IntTable : public StringTable<IntEntry>$/;"	c
+LE	cool-parse.h	/^     LE = 282,$/;"	e	enum:yytokentype
+LE	cool-parse.h	140;"	d
+LET	cool-parse.h	/^     LET = 264,$/;"	e	enum:yytokentype
+LET	cool-parse.h	122;"	d
+LET_STMT	cool-parse.h	/^     LET_STMT = 285$/;"	e	enum:yytokentype
+LET_STMT	cool-parse.h	142;"	d
+LOOP	cool-parse.h	/^     LOOP = 265,$/;"	e	enum:yytokentype
+LOOP	cool-parse.h	123;"	d
+List	list.h	/^  List(T *h,List<T>* t = NULL): head(h), tail(t) { }$/;"	f	class:List
+List	list.h	/^class List {$/;"	c
+MAXSIZE	stringtab_functions.h	8;"	d
+Memmgr	cgen_gc.h	/^extern enum Memmgr { GC_NOGC, GC_GENGC, GC_SNCGC } cgen_Memmgr;$/;"	g
+Memmgr_Debug	cgen_gc.h	/^extern enum Memmgr_Debug { GC_QUICK, GC_DEBUG } cgen_Memmgr_Debug;$/;"	g
+Memmgr_Test	cgen_gc.h	/^extern enum Memmgr_Test { GC_NORMAL, GC_TEST } cgen_Memmgr_Test;$/;"	g
+NEW	cool-parse.h	/^     NEW = 273,$/;"	e	enum:yytokentype
+NEW	cool-parse.h	131;"	d
+NOT	cool-parse.h	/^     NOT = 281,$/;"	e	enum:yytokentype
+NOT	cool-parse.h	139;"	d
+OBJECTID	cool-parse.h	/^     OBJECTID = 279,$/;"	e	enum:yytokentype
+OBJECTID	cool-parse.h	137;"	d
+OF	cool-parse.h	/^     OF = 271,$/;"	e	enum:yytokentype
+OF	cool-parse.h	129;"	d
+POOL	cool-parse.h	/^     POOL = 266,$/;"	e	enum:yytokentype
+POOL	cool-parse.h	124;"	d
+Program	cool-parse.h	/^typedef class Program_class *Program;$/;"	t	typeref:class:Program_class
+STR_CONST	cool-parse.h	/^     STR_CONST = 275,$/;"	e	enum:yytokentype
+STR_CONST	cool-parse.h	133;"	d
+StrTable	stringtab.h	/^class StrTable : public StringTable<StringEntry>$/;"	c
+StringEntry	stringtab.h	/^class StringEntry : public Entry {$/;"	c
+StringEntryP	stringtab.h	/^typedef StringEntry *StringEntryP;$/;"	t
+StringTable	stringtab.h	/^   StringTable(): tbl((List<Elem> *) NULL), index(0) { }   \/\/ an empty table$/;"	f	class:StringTable
+StringTable	stringtab.h	/^class StringTable$/;"	c
+Symbol	cool-parse.h	/^typedef Entry *Symbol;$/;"	t
+Symbol	cool.h	/^typedef Entry *Symbol;$/;"	t
+Symbol	stringtab.h	/^typedef Entry* Symbol;$/;"	t
+THEN	cool-parse.h	/^     THEN = 267,$/;"	e	enum:yytokentype
+THEN	cool-parse.h	125;"	d
+TREE_H	tree.h	8;"	d
+TYPEID	cool-parse.h	/^     TYPEID = 278,$/;"	e	enum:yytokentype
+TYPEID	cool-parse.h	136;"	d
+WHILE	cool-parse.h	/^     WHILE = 268,$/;"	e	enum:yytokentype
+WHILE	cool-parse.h	126;"	d
+YYSTYPE	cool-parse.h	/^typedef union YYSTYPE$/;"	u
+YYSTYPE	cool-parse.h	/^} YYSTYPE;$/;"	t	typeref:union:YYSTYPE
+YYSTYPE_IS_DECLARED	cool-parse.h	176;"	d
+YYSTYPE_IS_TRIVIAL	cool-parse.h	174;"	d
+YYTOKENTYPE	cool-parse.h	82;"	d
+_COOL_H_	cool-parse.h	10;"	d
+_COOL_H_	cool.h	8;"	d
+_COOL_PARSE_H	cool-parse.h	2;"	d
+_LIST_H_	list.h	20;"	d
+_STRINGTAB_H_	stringtab.h	10;"	d
+_UTILITIES_H_	utilities.h	9;"	d
+add_int	stringtab_functions.h	/^Elem *StringTable<Elem>::add_int(int i)$/;"	f	class:StringTable
+add_string	stringtab_functions.h	/^Elem *StringTable<Elem>::add_string(char *s)$/;"	f	class:StringTable
+add_string	stringtab_functions.h	/^Elem *StringTable<Elem>::add_string(char *s, int maxchars)$/;"	f	class:StringTable
+append	tree.h	/^template <class Elem> list_node<Elem> *list_node<Elem>::append(list_node<Elem> *l1,list_node<Elem> *l2) {$/;"	f	class:list_node
+append_node	tree.h	/^    append_node(list_node<Elem> *l1, list_node<Elem> *l2) {$/;"	f	class:append_node
+append_node	tree.h	/^template <class Elem> class append_node : public list_node<Elem> {$/;"	c
+boolean	cool-parse.h	/^  Boolean boolean;$/;"	m	union:YYSTYPE
+case_	cool-parse.h	/^  Case case_;$/;"	m	union:YYSTYPE
+cases	cool-parse.h	/^  Cases cases;$/;"	m	union:YYSTYPE
+class_	cool-parse.h	/^  Class_ class_;$/;"	m	union:YYSTYPE
+classes	cool-parse.h	/^  Classes classes;$/;"	m	union:YYSTYPE
+cons	tree.h	/^template <class Elem> append_node<Elem> *cons(Elem x, list_node<Elem> *l)$/;"	f
+copy	tree.h	/^    tree_node *copy()            { return copy_list(); }$/;"	f	class:list_node
+copy_list	tree.h	/^template <class Elem> list_node<Elem> *append_node<Elem>::copy_list()$/;"	f	class:append_node
+copy_list	tree.h	/^template <class Elem> list_node<Elem> *nil_node<Elem>::copy_list()$/;"	f	class:nil_node
+copy_list	tree.h	/^template <class Elem> list_node<Elem> *single_list_node<Elem>::copy_list()$/;"	f	class:single_list_node
+dump	tree.h	/^template <class Elem> void append_node<Elem>::dump(ostream& stream, int n)$/;"	f	class:append_node
+dump	tree.h	/^template <class Elem> void nil_node<Elem>::dump(ostream& stream, int n)$/;"	f	class:nil_node
+dump	tree.h	/^template <class Elem> void single_list_node<Elem>::dump(ostream& stream, int n)$/;"	f	class:single_list_node
+elem	tree.h	/^    Elem elem;$/;"	m	class:single_list_node
+equal_index	stringtab.h	/^  bool equal_index(int ind) const           { return ind == index; }$/;"	f	class:Entry
+error_msg	cool-parse.h	/^  char *error_msg;$/;"	m	union:YYSTYPE
+expression	cool-parse.h	/^  Expression expression;$/;"	m	union:YYSTYPE
+expressions	cool-parse.h	/^  Expressions expressions;$/;"	m	union:YYSTYPE
+feature	cool-parse.h	/^  Feature feature;$/;"	m	union:YYSTYPE
+features	cool-parse.h	/^  Features features;$/;"	m	union:YYSTYPE
+first	stringtab_functions.h	/^int StringTable<Elem>::first()$/;"	f	class:StringTable
+first	tree.h	/^    int first()      { return 0; }$/;"	f	class:list_node
+formal	cool-parse.h	/^  Formal formal;$/;"	m	union:YYSTYPE
+formals	cool-parse.h	/^  Formals formals;$/;"	m	union:YYSTYPE
+hd	list.h	/^  T *hd() const       { return head; }  $/;"	f	class:List
+head	list.h	/^  T *head;$/;"	m	class:List
+index	stringtab.h	/^   int index;         \/\/ the current index$/;"	m	class:StringTable
+index	stringtab.h	/^  int index;     \/\/ a unique index for each string$/;"	m	class:Entry
+len	stringtab.h	/^  int  len;      \/\/ the length of the string (without trailing \\0)$/;"	m	class:Entry
+len	tree.h	/^template <class Elem> int append_node<Elem>::len()$/;"	f	class:append_node
+len	tree.h	/^template <class Elem> int nil_node<Elem>::len()$/;"	f	class:nil_node
+len	tree.h	/^template <class Elem> int single_list_node<Elem>::len()$/;"	f	class:single_list_node
+line_number	tree.h	/^    int line_number;            \/\/ stash the line number when node is made$/;"	m	class:tree_node
+list	tree.h	/^template <class Elem> single_list_node<Elem> *list(Elem x)$/;"	f
+list_length	list.h	/^int list_length(List<T> *l)$/;"	f
+list_map	list.h	/^void list_map(void f(T*), List<T> *l)$/;"	f
+list_node	tree.h	/^template <class Elem> class list_node : public tree_node {$/;"	c
+list_print	list.h	/^void list_print(S &str, List<T> *l)$/;"	f
+lookup	stringtab_functions.h	/^Elem *StringTable<Elem>::lookup(int ind)$/;"	f	class:StringTable
+lookup_string	stringtab_functions.h	/^Elem *StringTable<Elem>::lookup_string(char *s)$/;"	f	class:StringTable
+min	stringtab_functions.h	9;"	d
+more	stringtab_functions.h	/^int StringTable<Elem>::more(int i)$/;"	f	class:StringTable
+more	tree.h	/^    int more(int n)  { return (n < len()); }$/;"	f	class:list_node
+next	stringtab_functions.h	/^int StringTable<Elem>::next(int i)$/;"	f	class:StringTable
+next	tree.h	/^    int next(int n)  { return n + 1; }$/;"	f	class:list_node
+nil	tree.h	/^template <class Elem> list_node<Elem> *list_node<Elem>::nil() { return new nil_node<Elem>(); }$/;"	f	class:list_node
+nil_node	tree.h	/^template <class Elem> class nil_node : public list_node<Elem> {$/;"	c
+nth	tree.h	/^template <class Elem> Elem append_node<Elem>::nth(int n)$/;"	f	class:append_node
+nth	tree.h	/^template <class Elem> Elem list_node<Elem>::nth(int n)$/;"	f	class:list_node
+nth_length	tree.h	/^template <class Elem> Elem append_node<Elem>::nth_length(int n, int &len)$/;"	f	class:append_node
+nth_length	tree.h	/^template <class Elem> Elem nil_node<Elem>::nth_length(int, int &len)$/;"	f	class:nil_node
+nth_length	tree.h	/^template <class Elem> Elem single_list_node<Elem>::nth_length(int n, int &len)$/;"	f	class:single_list_node
+print	stringtab_functions.h	/^void StringTable<Elem>::print()$/;"	f	class:StringTable
+program	cool-parse.h	/^  Program program;$/;"	m	union:YYSTYPE
+rest	tree.h	/^    list_node<Elem> *some, *rest;$/;"	m	class:append_node
+single	tree.h	/^template <class Elem> list_node<Elem> *list_node<Elem>::single(Elem e) { return new single_list_node<Elem>(e); }$/;"	f	class:list_node
+single_list_node	tree.h	/^    single_list_node(Elem t) {$/;"	f	class:single_list_node
+single_list_node	tree.h	/^template <class Elem> class single_list_node : public list_node<Elem> {$/;"	c
+some	tree.h	/^    list_node<Elem> *some, *rest;$/;"	m	class:append_node
+str	stringtab.h	/^  char *str;     \/\/ the string$/;"	m	class:Entry
+symbol	cool-parse.h	/^  Symbol symbol;$/;"	m	union:YYSTYPE
+tail	list.h	/^  List<T>* tail;$/;"	m	class:List
+tbl	stringtab.h	/^   List<Elem> *tbl;   \/\/ a string table is a list$/;"	m	class:StringTable
+tl	list.h	/^  List<T>* tl() const { return tail; }$/;"	f	class:List
+tree_node	tree.h	/^class tree_node {$/;"	c
+xcons	tree.h	/^template <class Elem> append_node<Elem> *xcons(list_node<Elem> *l, Elem x)$/;"	f
+yystype	cool-parse.h	175;"	d
+yytokentype	cool-parse.h	/^   enum yytokentype {$/;"	g
+~list_node	tree.h	/^    virtual ~list_node() { }$/;"	f	class:list_node
+~tree_node	tree.h	/^    virtual ~tree_node() { }$/;"	f	class:tree_node
