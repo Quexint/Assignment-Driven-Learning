@@ -1,10 +1,12 @@
-# Programming Assignment 01 Lexical Analysis
+# PA01 Lexical Analysis
 
-## Introduction
+## Summary
 
-To make a Cool compiler, try to complete the scanner part at first. The other parts are completed by the instructor. It means we only need to transform the scanning rules to regular expressions based on lex. 
+1. Learn how to use `flex/jlex` to match legal tokens. For example, `2143abd` is illegal in C.
+2. Report error information when error occurs.
 
 ## Related Files
+
 - **grading**: After judging, the folder will be created. The folder contains 63 test cases.
 - **pa1-grading.pl**: The grading shell script.
 - **cool.flex**: What we need to code.
@@ -13,33 +15,42 @@ To make a Cool compiler, try to complete the scanner part at first. The other pa
 - **Makefile**: Use `$ make lexer` to compile.
 
 
-## Get Started from [Instructions](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/courseware/708cb92d25c24fbdad592929b4a80917/a412e45be94f499581b0e44aafff58f9/)
+## Instructions
+
 1. [Getting started with the VMs](https://class.stanford.edu/courses/Engineering/Compilers/Fall2014/9f961242edfb45eba0969a5a7592916d/) (ID:**compilers**, PW:**cool**)
 2. Assignment number begins from `2`, ex: assignment I is `PA2`.
 3. Create the directory you want to do hw, ex: `~/cool/my_assign_sol/PA2`
 4. Copy source into the working directory.
-  - C++: `$ make -f /usr/class/cs143/assignments/PA2/Makefile`
-  - Java: `$ make -f /usr/class/cs143/assignments/PA2J/Makefile`
+  - C++: `PA2 $ make -f /usr/class/cs143/assignments/PA2/Makefile`
+  - Java: `PA2 $ make -f /usr/class/cs143/assignments/PA2J/Makefile`
 5. Start to code.
 
 ## Sample I/O
 
-### Sample Input from `grading/stringcommnet.cool`
-```cool
+<details>
+<summary>Input: [grading/stringcomment.cool](grading/stringcomment.cool)</summary>
+
+```
 "This is a string--and it's still a string"
 --This is a comment, "not a string"
 (* "not a string" *)
 "(* not a comment *)"
 ```
 
-### Sample Output from `grading/stringcommnet.cool.out`
-```cool
+</details>
+
+<details>
+<summary>Output: [grading/stringcomment.cool.out](grading/stringcomment.cool.out)</summary>
+
+```
 #name "stringcomment.cool"
 #1 STR_CONST "This is a string--and it's still a string"
 #4 STR_CONST "(* not a comment *)"
 ```
 
-## Instruction
+</details>
+
+## Commands
 
 - **Compile**: `$ make lexer`
 - **Execute**: `$ ./lexer good.cl`
@@ -49,6 +60,7 @@ To make a Cool compiler, try to complete the scanner part at first. The other pa
 	3. Submit: `$ perl pa1-grading.pl`
 
 ## References
+
 - [Assignment 1 Spec](https://s3-us-west-1.amazonaws.com/prod-edx/Compilers/ProgrammingAssignments/PA1.pdf)
 - [The Cool Reference Manual](https://lagunita.stanford.edu/c4x/Engineering/Compilers/asset/cool_manual.pdf), Sec. 10 and Figure 1
 - [A Tour of the Cool Support Code](https://lagunita.stanford.edu/c4x/Engineering/Compilers/asset/cool-tour.pdf), Sec. 3 "String Tables"
