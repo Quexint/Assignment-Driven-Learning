@@ -1,5 +1,11 @@
 # Stanford CS143 Compilers
 
+## Summary
+
+### What's not in this course
+
+Executable formats, JIT.
+
 ## Introduction
 
 - **Stanford CS143 Compilers**
@@ -16,12 +22,22 @@
 		- [x] **Officail Solution**
 		- [09-08 in-video quiz wrong answer](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/discussion/forum/i4x-Engineering-Compilers-Lectures-Fall2014/threads/5473bbd457f960b95d0011f1#)
 	- [x] **Assignment**
-		- [x] [**PA01**](PA/PA2_Lexer): Lexical Analysis: `PA/PA2_Lexer $ make lexer`
-		- [x] [**PA02**](PA/PA3_Parser): Parsing: `PA/PA3_Parser $ make parser`
-		- [x] [**PA03**](PA/PA4_Semantic): Semantic Analysis and Type Checking: `PA/PA4_Semantic $ make semant`
-		- [x] [**PA04**](PA/PA5_CodeGen): Code Generation: `PA/PA5_CodeGen $ make cgen`
+		- [x] [**Review**](PA/PA2_Lexer) PA01: Lexical Analysis: `PA/PA2_Lexer $ make lexer`
+		- [x] [**Review**](PA/PA3_Parser) PA02: Parsing: `PA/PA3_Parser $ make parser`
+		- [x] [**Review**](PA/PA4_Semantic) PA03: Semantic Analysis and Type Checking: `PA/PA4_Semantic $ make semant`
+		- [x] [**Review**](PA/PA5_CodeGen) PA04: Code Generation: `PA/PA5_CodeGen $ make cgen`
 		- [x] **Autograder**
-	- [ ] [**My Note (In process)**](Notes.ipynb)
+	- [ ] **Notes (In process)**
+		- [x] [**Week01**](Notes/Week01.ipynb)
+		- [x] [**Week02**](Notes/Week02.ipynb)
+		- [x] [**Week03**](Notes/Week03.ipynb)
+		- [x] [**Week04**](Notes/Week04.ipynb)
+		- [x] [**Week05**](Notes/Week05.ipynb)
+		- [x] [**Week06**](Notes/Week06.ipynb)
+		- [x] [**Week07**](Notes/Week07.ipynb)
+		- [ ] [**Week08**](Notes/Week08.ipynb)
+		- [ ] [**Week09**](Notes/Week09.ipynb)
+		- [ ] [**Week10**](Notes/Week10.ipynb)
 	- Remarks
 		- The four assignments can be assembled to a compiler.
 		- The Deduceit Assignment in Coursera is down.
@@ -34,7 +50,7 @@
 
 ## Assignments
 
-You can't build the source codes on Mac OS X.
+You can't build on Mac OS X.
 
 You can download the virtual box on the course site or use the **experimental** [**Dockerfile**](Dockerfile).
 

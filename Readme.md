@@ -2,7 +2,7 @@
 
 ## Current Work
 
-Now I am focus on **Stanford Compilers PA04**. I except the course will end in Jane.
+Now I am writing reviews of **Stanford Compilers**.
 
 ## Description
 
@@ -14,7 +14,7 @@ Feel free to find OCWs, solutions, and feedbacks here.
 
 ### C/C++
 
-- [ ] C++ Primer, 5e (**In process**)
+- [ ] C++ Primer, 5e
 
 ## Open Course Ware
 
@@ -25,22 +25,30 @@ Feel free to find OCWs, solutions, and feedbacks here.
 
 ### Software Engineering
 
-- [x] Udacity Software Debugging
-- [x] Udacity Software Testing
+- [x] [Udacity Software Debugging](OCW/[Udacity]Software_Debugging)
+- [x] [Udacity Software Testing](OCW/[Udacity]Software_Testing)
 
 ### System
 
-- [ ] UCB CS162 Operating Systems and Systems Programming (**In process**)
+- [ ] UCB CS162 Operating Systems and Systems Programming
+	- [x] Shell
+	- [x] HTTP Server
+	- [x] Malloc
+	- [ ] Two-Pharse Commit
 
 ### Programming Languages / Compiler
 
-- [ ] Stanford CS143 Compilers (**In process**)
+- [ ] [Stanford CS143 Compilers](OCW/[Stanford]CS143_Compilers)
+	- [x] Lexer
+	- [x] Parser
+	- [x] Semantic Analyser
+	- [x] Code Generator
 
 ### Apps
 
 - [ ] Stanford Developing iOS 9 Apps (**In process**)
 
-## Workshops
+## Workshop
 
 ### Programming Languages
 
