@@ -27,6 +27,10 @@
 
 ## Sample I/O
 
+**Run**
+
+- `./lexer sample.cool`
+
 <details>
 <summary>Input: [grading/stringcomment.cool](grading/stringcomment.cool)</summary>
 

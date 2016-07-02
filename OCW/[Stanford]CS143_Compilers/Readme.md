@@ -1,11 +1,5 @@
 # Stanford CS143 Compilers
 
-## Summary
-
-### What's not in this course
-
-Executable formats, JIT.
-
 ## Introduction
 
 - **Stanford CS143 Compilers**
@@ -35,7 +29,7 @@ Executable formats, JIT.
 		- [x] [**Week05**](Notes/Week05.ipynb)
 		- [x] [**Week06**](Notes/Week06.ipynb)
 		- [x] [**Week07**](Notes/Week07.ipynb)
-		- [ ] [**Week08**](Notes/Week08.ipynb)
+		- [x] [**Week08**](Notes/Week08.ipynb)
 		- [ ] [**Week09**](Notes/Week09.ipynb)
 		- [ ] [**Week10**](Notes/Week10.ipynb)
 	- Remarks

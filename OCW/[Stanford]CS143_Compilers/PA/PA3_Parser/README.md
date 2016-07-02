@@ -26,6 +26,11 @@
 
 ## Sample I/O
 
+**Run**
+
+- `./lexer sample.cool | ./parser`
+- `./myparser sample.cool`
+
 <details>
 <summary>Input: [grading/assignment.test](grading/assignment.test)</summary>
 

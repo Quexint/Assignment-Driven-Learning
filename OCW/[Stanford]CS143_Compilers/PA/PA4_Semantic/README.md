@@ -35,6 +35,11 @@ This assignment is so **heavy**. It took me 2 ~ 3 weeks. Try to make a **symbol 
 
 ## Sample I/O
 
+**Run**
+
+- `./lexer sample.cool | ./parser | ./semant`
+- `./mysemant sample.cool`
+
 <details>
 <summary>Input: [grading/badarith.test](grading/badarith.test)</summary>
 

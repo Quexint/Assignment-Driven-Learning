@@ -46,7 +46,7 @@ Feel free to find OCWs, solutions, and feedbacks here.
 
 ### Apps
 
-- [ ] Stanford Developing iOS 9 Apps (**In process**)
+- [ ] Stanford Developing iOS 9 Apps 
 
 ## Workshop
 

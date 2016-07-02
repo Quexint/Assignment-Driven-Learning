@@ -28,6 +28,11 @@ This assignment is heavier than PA03. Because everything you write in PA03 will 
 
 ## Sample I/O
 
+**Run**
+
+- `./lexer sample.cool | ./parser | ./semant | ./cgen`
+- `./mycoolc sample.cool`
+
 <details>
 <summary>Input: [grading/case-none.cl](grading/case-none.cl)</summary>
 
