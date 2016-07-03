@@ -1,5 +1,7 @@
 # Stanford CS143 Compilers
 
+![](Notes/Note_jpg/process.png)
+
 ## Introduction
 
 - **Stanford CS143 Compilers**
