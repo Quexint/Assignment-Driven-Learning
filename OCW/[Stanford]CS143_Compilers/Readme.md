@@ -16,22 +16,22 @@
 		- [x] **Officail Solution**
 		- [09-08 in-video quiz wrong answer](https://lagunita.stanford.edu/courses/Engineering/Compilers/Fall2014/discussion/forum/i4x-Engineering-Compilers-Lectures-Fall2014/threads/5473bbd457f960b95d0011f1#)
 	- [x] **Assignment**
-		- [x] [**Review**](PA/PA2_Lexer) PA01: Lexical Analysis: `PA/PA2_Lexer $ make lexer`
-		- [x] [**Review**](PA/PA3_Parser) PA02: Parsing: `PA/PA3_Parser $ make parser`
-		- [x] [**Review**](PA/PA4_Semantic) PA03: Semantic Analysis and Type Checking: `PA/PA4_Semantic $ make semant`
-		- [x] [**Review**](PA/PA5_CodeGen) PA04: Code Generation: `PA/PA5_CodeGen $ make cgen`
-		- [x] **Autograder**
-	- [ ] **Notes (In process)**
-		- [x] [**Week01**](Notes/Week01.ipynb)
-		- [x] [**Week02**](Notes/Week02.ipynb)
-		- [x] [**Week03**](Notes/Week03.ipynb)
-		- [x] [**Week04**](Notes/Week04.ipynb)
-		- [x] [**Week05**](Notes/Week05.ipynb)
-		- [x] [**Week06**](Notes/Week06.ipynb)
-		- [x] [**Week07**](Notes/Week07.ipynb)
-		- [x] [**Week08**](Notes/Week08.ipynb)
-		- [ ] [**Week09**](Notes/Week09.ipynb)
-		- [ ] [**Week10**](Notes/Week10.ipynb)
+		- [**Review**](PA/PA2_Lexer) PA01: Lexical Analysis: `PA/PA2_Lexer $ make lexer`
+		- [**Review**](PA/PA3_Parser) PA02: Parsing: `PA/PA3_Parser $ make parser`
+		- [**Review**](PA/PA4_Semantic) PA03: Semantic Analysis and Type Checking: `PA/PA4_Semantic $ make semant`
+		- [**Review**](PA/PA5_CodeGen) PA04: Code Generation: `PA/PA5_CodeGen $ make cgen`
+		- **Autograder**
+	- [x] **Notes**
+		- [**Week01**](Notes/Week01.ipynb)
+		- [**Week02**](Notes/Week02.ipynb)
+		- [**Week03**](Notes/Week03.ipynb)
+		- [**Week04**](Notes/Week04.ipynb)
+		- [**Week05**](Notes/Week05.ipynb)
+		- [**Week06**](Notes/Week06.ipynb)
+		- [**Week07**](Notes/Week07.ipynb)
+		- [**Week08**](Notes/Week08.ipynb)
+		- [**Week09**](Notes/Week09.ipynb)
+		- [**Week10**](Notes/Week10.ipynb)
 	- Remarks
 		- The four assignments can be assembled to a compiler.
 		- The Deduceit Assignment in Coursera is down.
