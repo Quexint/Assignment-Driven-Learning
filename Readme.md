@@ -2,7 +2,7 @@
 
 ## Current Work
 
-Now I am writing reviews of **Stanford Compilers**.
+Now I focus on **UCB CS162**.
 
 ## Description
 
@@ -30,7 +30,7 @@ Feel free to find OCWs, solutions, and feedbacks here.
 
 ### System
 
-- [ ] UCB CS162 Operating Systems and Systems Programming
+- [ ] [UCB CS162 Operating Systems and Systems Programming](OCW/[UCB]CS162_Operating_Systems_and_System_Programming)
 	- [x] Shell
 	- [x] HTTP Server
 	- [x] Malloc
@@ -38,11 +38,11 @@ Feel free to find OCWs, solutions, and feedbacks here.
 
 ### Programming Languages / Compiler
 
-- [ ] [Stanford CS143 Compilers](OCW/[Stanford]CS143_Compilers)
-	- [x] Lexer
-	- [x] Parser
-	- [x] Semantic Analyser
-	- [x] Code Generator
+- [x] [Stanford CS143 Compilers](OCW/[Stanford]CS143_Compilers)
+	- Lexer
+	- Parser
+	- Semantic Analyser
+	- Code Generator
 
 ### Apps
 
