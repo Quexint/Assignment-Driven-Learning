@@ -15,7 +15,7 @@
 		- [**Review**](Homeworks/hw1) HW1: Shell
 		- [**Review**](Homeworks/hw2) HW2: HTTP Server
 		- [**Review**](Homeworks/hw3) HW3: Malloc
-		- [ ]HW4: 2PC/KV Store
+		- [ ] HW4: 2PC/KV Store
 	- [ ] **Note**
 - **Pojects Pintos**
 	- Kernel threads
